@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <input id="screen" readonly="readonly"></input>
+            <div class="button" onclick="addToScreen('1')">
+                <p id="one">1</p>
+            </div>
+            <div class="button" onclick="addToScreen('2')">
+                <p id="two">2</p>
+            </div>
+            <div class="button" onclick="addToScreen('3')">
+                <p id="three">3</p>
+            </div>
+            <div class="button" onclick="addToScreen('*')">
+                <p id="multiply">*</p>
+            </div>
+            <div class="button" onclick="addToScreen('4')">
+                <p id="four">4</p>
+            </div>
+            <div class="button" onclick="addToScreen('5')">
+                <p id="five">5</p>
+            </div>
+            <div class="button" onclick="addToScreen('6')">
+                <p id="six">6</p>
+            </div>
+            <div class="button" onclick="addToScreen('/')">
+                <p id="divide">/</p>
+            </div>
+            <div class="button" onclick="addToScreen('7')">
+                <p cid="seven">7</p>
+            </div>
+            <div class="button" onclick="addToScreen('8')">
+                <p id="eight">8</p>
+            </div>
+            <div class="button" onclick="addToScreen('9')">
+                <p id="nine">9</p>
+            </div>
+            <div class="button" onclick="executeScreen()" style="grid-row: 4/6; grid-column: 4; padding: 60px 0;">
+                <p id="enter">Go.</p>
+            </div>
+            <div class="button" onclick="addToScreen('-')">
+                <p id="minus">-</p>
+            </div>
+            <div class="button" onclick="addToScreen('0')">
+                <p id="zero">0</p>
+            </div>
+            <div class="button" onclick="addToScreen('+')">
+                <p id="plus">+</p>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
